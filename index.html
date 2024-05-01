@@ -14,21 +14,22 @@
   <main>
     <section class="about">
       <h3>Empowering Your DnD Adventures</h3>
-      <p>Welcome to Beyond the Tavern, your one-stop shop for crafting compelling DnD characters and managing initiative with ease! This comprehensive toolkit, built with the powerful .NET MAUI framework, offers a hybrid approach to data access, catering to both online and offline DnD enthusiasts.</p>
+      <p>Welcome to Beyond the Tavern, your one-stop shop for crafting compelling DnD characters and managing initiative with ease! This enhanced version incorporates a hybrid approach for data access, leveraging both the online D&D 5e API (dnd5eapi.co) and optional offline data storage. Built with the powerful .NET MAUI framework, Beyond the Tavern caters to both online and offline DnD enthusiasts.</p>
     </section>
     <section class="features">
-      <h2>Core Functionalities</h2>
+      <h2>Core Functionalities (Initial Iteration)</h2>
       <ul>
         <li>
           **Character Creation:** Breathe life into your DnD hero! Select your character's race and class, meticulously assign ability scores, and choose a striking portrait image from your device storage. A dedicated page for managing spells and cantrips ensures your character is fully equipped for any adventure.
         </li>
         <li>
-          **Initiative Tracking:** Streamline your DnD sessions with our intuitive initiative tracker. Players and Dungeon Masters can effortlessly add characters with names and initiative modifiers. Witness the initiative order automatically sorted (highest first) on a separate page, ensuring a smooth and exciting gameplay flow.
+          **Initiative Tracker:** Streamline your DnD sessions with our intuitive initiative tracker. Players and Dungeon Masters can effortlessly add characters with names and initiative modifiers. Witness the initiative order automatically sorted (highest first) on a separate page, ensuring a smooth and exciting gameplay flow.
         </li>
       </ul>
     </section>
     <section class="data-access">
-      <h2>Unveiling the Power of Choice</h2>
+      <h2>Unveiling the Power of Choice: Hybrid Data Access</h2>
+      <p>Beyond the Tavern offers a flexible approach to data access, empowering you to choose what best suits your needs.</p>
       <div class="mode online">
         <h3>Online Mode (Default)</h3>
         <p>Leverage the convenience of online access! Beyond the Tavern seamlessly integrates with the official D&D 5e API (dnd5eapi.co), granting you access to a vast repository of DnD information. Experience auto-completion suggestions during character creation, delve into detailed descriptions of races, classes, and spells, and potentially explore integrated spell descriptions (subject to API limitations).</p>
@@ -41,19 +42,29 @@
     <section class="benefits">
       <h2>Benefits</h2>
       <ul>
-        <li>**Unmatched Convenience:** Online access provides ease of use and the potential for automatic updates, keeping your D&D data fresh.</li>
+        <li>**Convenience (Online Mode):** Online access provides ease of use and the potential for automatic updates, keeping your D&D data fresh.</li>
         <li>**Offline Functionality:** Never be without your DnD tools! Create characters, manage initiative, and access vital information even without an internet connection.</li>
-        <li>**Customization (Optional):** The offline data approach offers the potential for modification or extension (consider copyright implications), allowing you to tailor your D&D experience further.</li>
-        <li>**Flexibility at Your Fingertips:** Choose the data access mode that best suits your needs, online or offline, the decision is yours!</li>
+        <li>**Customization (Optional - Offline Mode):** The offline data approach offers the potential for modification or extension (consider copyright implications), allowing you to tailor your D&D experience further.</li>
+        <li>**Flexibility:** Choose the data access mode that best suits your needs, online or offline, the decision is yours!</li>
       </ul>
     </section>
-    <section class="roadmap">
-      <h2>Development Roadmap</h2>
-      <p>We're actively working on refining mockups to reflect the option for offline data download and management. Stay tuned for exciting updates!</p>
-    </section>
-  </main>
-  <footer>
-    <p>&copy; 2024 Beyond the Tavern. All rights reserved.</p>
-  </footer>
+    <section class="tech-details">
+      <h2>Technical Details (For Developers)</h2>
+      <p>Beyond the Tavern is built with the .NET MAUI framework, enabling it to run seamlessly on both Android and Windows devices. Here's a glimpse into the development considerations:</p>
+      <ul>
+        <li>API Integration (Online Mode): Utilizes libraries like System.Net.Http to make HTTP requests to the D&D 5e API and parses JSON responses for data retrieval.</li>
+        <li>Offline Mode (Optional): Implements logic for downloading and storing a local data package, potentially using SQLite or another lightweight database for efficient storage and retrieval.</li>
+        <li>Error Handling: Proper error handling is implemented to address potential network connectivity issues and API calls.</li>
+        <li>User Interface: A user-friendly interface is designed leveraging the MVVM (Model-View-ViewModel) pattern for code organization and maintainability. Data binding is utilized for easier interaction between UI elements and underlying data models. UI optimizations are considered for different screen sizes and resolutions on both Android and Windows devices.</li>
+    </ul>
+  </section>
+  <section class="roadmap">
+    <h2>Development Roadmap</h2>
+    <p>We're actively working on refining mockups to reflect the option for offline data download and management. Stay tuned for exciting updates!</p>
+  </section>
+</main>
+<footer>
+  <p>&copy; 2024 Beyond the Tavern. All rights reserved.</p>
+</footer>
 </body>
 </html>
