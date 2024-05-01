@@ -1,5 +1,5 @@
 body {
-    font-family: sans-serif;
+    font-family: Open Sans, sans-serif;
     margin: 0;
     padding: 0;
   }
@@ -11,16 +11,18 @@ body {
     text-align: center;
   }
   
-  h1, h2 {
+  h1 {
+    font-family: Playfair Display, serif; /* h1 uses Playfair Display */
     margin: 0;
   }
   
-  main {
-    padding: 20px;
+  h2, h3, h4, h5, h6 {
+    font-family: Lora, serif; /* Headings use Lora */
   }
   
-  .about {
-    margin-bottom: 30px;
+  li {
+    font-family: Oswald, sans-serif; /* List items use Oswald */
+    margin-bottom: 10px;
   }
   
   .about p {
@@ -38,10 +40,6 @@ body {
   
   .features {
     margin-bottom: 30px;
-  }
-  
-  .features li {
-    margin-bottom: 10px;
   }
   
   .screenshots {
@@ -70,5 +68,4 @@ body {
     color: #93a8a1; /* Grey-blue - Represents Druid, Nature Magic */
   }
   
-  /* Remember to adjust these color codes based on your preferences */
-  
+  /* Remember to adjust these color codes based on your preferences */  
