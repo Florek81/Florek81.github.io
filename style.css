@@ -4,10 +4,11 @@ body {
     min-height: 100vh;
   }
   
-  .wrapper {
+  #main-content {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
   }
   
   header {
