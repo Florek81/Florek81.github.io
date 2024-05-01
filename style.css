@@ -1,14 +1,8 @@
 body {
     margin: 0;
     padding: 0;
-    min-height: 100vh;
-  }
-  
-  #main-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    min-height: 100vh; /* Ensures viewport height */
+    font-family: Open Sans, sans-serif;
   }
   
   header {
@@ -55,7 +49,7 @@ body {
   .features {
     margin-bottom: 30px;
     max-width: 800px; /* Sets maximum width for features section */
-    margin: 0 auto 30px; /* Centers features section horizontally */
+    margin: 0 auto; /* Centers features section horizontally */
   }
   
   .screenshots {
@@ -67,7 +61,10 @@ body {
     padding: 10px;
     text-align: center;
     max-width: 800px; /* Sets maximum width for footer */
-    margin: 0 auto 30px; /* Centers footer horizontally */
+    margin: 0 auto; /* Centers footer horizontally */
+    position: fixed; /* Positions footer at bottom */
+    bottom: 0; /* Sets bottom position to 0 */
+    width: 100%; /* Stretches footer to full width */
   }
   
   /* Optional - Add colors for specific sections based on DnD associations */
@@ -84,4 +81,4 @@ body {
   
   .benefits li:nth-child(2) { /* Target 2nd benefit list item (offline functionality) */
     color: #93a8a1; /* Grey-blue - Represents Druid, Nature Magic */
-  }
+  }  
