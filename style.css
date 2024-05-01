@@ -67,18 +67,13 @@ body {
     width: 100%; /* Stretches footer to full width */
   }
   
-  /* Optional - Add colors for specific sections based on DnD associations */
-  
-  .data-access .mode.online {
-    background-color: #3498db; /* Blue - Represents Wizard, Illusion Magic */
-    color: white;
+  /* Addressing footer issues */
+  body {
+    /* Add some padding to prevent footer overlap */
+    padding-bottom: 50px; /* Adjust padding as needed */
   }
   
-  .data-access .mode.offline {
-    background-color: #9b59b6; /* Purple - Represents Bard, Enchantment Magic */
-    color: white;
+  footer {
+    /* Clear left positioning and ensure proper alignment */
+    left: 0; /* Sets left position to 0 */
   }
-  
-  .benefits li:nth-child(2) { /* Target 2nd benefit list item (offline functionality) */
-    color: #93a8a1; /* Grey-blue - Represents Druid, Nature Magic */
-  }  
