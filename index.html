@@ -1,23 +1,59 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
-    <style>
-    body
-    {
-        font-family: "Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
-        font-size: 14px;
-        line-height: 1.5;
-        color: #c9d1d9;
-        background-color: #0d1117;
-    }
-    </style>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Florek81's website</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beyond the Tavern: Your DnD Toolkit</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Dies ist meine Seite!</h1>
-
-    <p>Dies ist mein Text</p>
+  <header>
+    <h1>Beyond the Tavern</h1>
+    <h2>Your DnD Character Creator & Initiative Tracker</h2>
+  </header>
+  <main>
+    <section class="about">
+      <h3>Empowering Your DnD Adventures</h3>
+      <p>Welcome to Beyond the Tavern, your one-stop shop for crafting compelling DnD characters and managing initiative with ease! This comprehensive toolkit, built with the powerful .NET MAUI framework, offers a hybrid approach to data access, catering to both online and offline DnD enthusiasts.</p>
+    </section>
+    <section class="features">
+      <h2>Core Functionalities</h2>
+      <ul>
+        <li>
+          **Character Creation:** Breathe life into your DnD hero! Select your character's race and class, meticulously assign ability scores, and choose a striking portrait image from your device storage. A dedicated page for managing spells and cantrips ensures your character is fully equipped for any adventure.
+        </li>
+        <li>
+          **Initiative Tracking:** Streamline your DnD sessions with our intuitive initiative tracker. Players and Dungeon Masters can effortlessly add characters with names and initiative modifiers. Witness the initiative order automatically sorted (highest first) on a separate page, ensuring a smooth and exciting gameplay flow.
+        </li>
+      </ul>
+    </section>
+    <section class="data-access">
+      <h2>Unveiling the Power of Choice</h2>
+      <div class="mode online">
+        <h3>Online Mode (Default)</h3>
+        <p>Leverage the convenience of online access! Beyond the Tavern seamlessly integrates with the official D&D 5e API (dnd5eapi.co), granting you access to a vast repository of DnD information. Experience auto-completion suggestions during character creation, delve into detailed descriptions of races, classes, and spells, and potentially explore integrated spell descriptions (subject to API limitations).</p>
+      </div>
+      <div class="mode offline">
+        <h3>Offline Mode (Optional)</h3>
+        <p>Don't let a lack of internet connection hinder your DnD experience! Beyond the Tavern empowers you with optional offline functionality. Download a local data package containing relevant D&D 5e information and access it seamlessly when an internet connection is unavailable.</p>
+      </div>
+    </section>
+    <section class="benefits">
+      <h2>Benefits</h2>
+      <ul>
+        <li>**Unmatched Convenience:** Online access provides ease of use and the potential for automatic updates, keeping your D&D data fresh.</li>
+        <li>**Offline Functionality:** Never be without your DnD tools! Create characters, manage initiative, and access vital information even without an internet connection.</li>
+        <li>**Customization (Optional):** The offline data approach offers the potential for modification or extension (consider copyright implications), allowing you to tailor your D&D experience further.</li>
+        <li>**Flexibility at Your Fingertips:** Choose the data access mode that best suits your needs, online or offline, the decision is yours!</li>
+      </ul>
+    </section>
+    <section class="roadmap">
+      <h2>Development Roadmap</h2>
+      <p>We're actively working on refining mockups to reflect the option for offline data download and management. Stay tuned for exciting updates!</p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Beyond the Tavern. All rights reserved.</p>
+  </footer>
 </body>
 </html>
