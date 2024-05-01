@@ -15,15 +15,16 @@ body {
     text-align: center;
     max-width: 800px; /* Sets maximum width for header */
     margin: 0 auto; /* Centers header horizontally */
+    font-family: Roboto, sans-serif; /* Modern font for header */
   }
   
   h1 {
-    font-family: Playfair Display, serif; /* h1 uses Playfair Display */
+    font-family: Montserrat, sans-serif; /* Modern font for h1 */
     margin: 0;
   }
   
   h2, h3, h4, h5, h6 {
-    font-family: Lora, serif; /* Headings use Lora */
+    font-family: Merriweather, serif; /* Modern serif font for headings */
   }
   
   li {
@@ -80,4 +81,4 @@ body {
   
   .benefits li:nth-child(2) { /* Target 2nd benefit list item (offline functionality) */
     color: #93a8a1; /* Grey-blue - Represents Druid, Nature Magic */
-  }  
+  }
