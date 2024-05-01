@@ -2,54 +2,73 @@ body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
-}
-
-header {
-    background-color: #3498db;
+  }
+  
+  header {
+    background-color: #c74444; /* Red - Represents Barbarian, Fighter, War Cleric */
     color: white;
     padding: 20px;
     text-align: center;
-}
-
-h1, h2 {
+  }
+  
+  h1, h2 {
     margin: 0;
-}
-
-main {
+  }
+  
+  main {
     padding: 20px;
-}
-
-.about {
+  }
+  
+  .about {
     margin-bottom: 30px;
-}
-
-.about p {
+  }
+  
+  .about p {
     line-height: 1.5;
-}
-
-.button {
-    background-color: #e74c3c;
+  }
+  
+  .button {
+    background-color: #a2aaad; /* Grey - Neutral color for buttons */
     color: white;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-}
-
-.features {
+  }
+  
+  .features {
     margin-bottom: 30px;
-}
-
-.features li {
+  }
+  
+  .features li {
     margin-bottom: 10px;
-}
-
-.screenshots {
+  }
+  
+  .screenshots {
     text-align: center;
-}
-
-footer {
+  }
+  
+  footer {
     background-color: #f1f1f1;
     padding: 10px;
     text-align: center;
-}
+  }
+  
+  /* Optional - Add colors for specific sections based on DnD associations */
+  
+  .data-access .mode.online {
+    background-color: #3498db; /* Blue - Represents Wizard, Illusion Magic */
+    color: white;
+  }
+  
+  .data-access .mode.offline {
+    background-color: #9b59b6; /* Purple - Represents Bard, Enchantment Magic */
+    color: white;
+  }
+  
+  .benefits li:nth-child(2) { /* Target 2nd benefit list item (offline functionality) */
+    color: #93a8a1; /* Grey-blue - Represents Druid, Nature Magic */
+  }
+  
+  /* Remember to adjust these color codes based on your preferences */
+  
