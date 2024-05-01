@@ -53,7 +53,7 @@ body {
   
   .features {
     margin-bottom: 30px;
-    /* max-width: 800px; /* Sets maximum width for features section */
+    max-width: 800px; /* Sets maximum width for features section */
     margin: 0 auto 30px; /* Centers features section horizontally */
   }
   
@@ -65,7 +65,7 @@ body {
     background-color: #f1f1f1;
     padding: 10px;
     text-align: center;
-    /* max-width: 800px; /* Sets maximum width for footer */
+    max-width: 800px; /* Sets maximum width for footer */
     margin: 0 auto 30px; /* Centers footer horizontally */
   }
   
